@@ -5,3 +5,23 @@
 body {
   font-family: "Karla", sans-serif;
 }
+
+@layer base {
+  p {
+    @apply m-5;
+  }
+}
+
+.burger-btn {
+  @apply w-5 h-7 ml-5 relative cursor-pointer;
+}
+
+.burger-btn:before {
+  content: "";
+  @apply absolute top-0 w-5 bg-black h-0.5;
+}
+
+.burger-btn:after {
+  content: "";
+  @apply absolute bottom-0 w-5 bg-black h-0.5;
+}
