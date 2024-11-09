@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Menu from "./Menu";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
   const items = [
-    { value: "Главная", to: "/" },
+    { value: "Перфектус", to: "/" },
     { value: "О нас", to: "/about" },
     { value: "Клиника", to: "/clinic" },
     { value: "Цены", to: "/prices" },
@@ -13,17 +14,20 @@ const Header = () => {
   ];
   return (
     <header>
-      <nav className="w-full h-14 bg-gray-700 fixed z-50 flex items-center">
+      <nav className="w-full bg-white h-24 fixed flex items-center">
         <div className="burger-btn" onClick={() => setMenuActive(!menuActive)}>
-          <span className="absolute top-3 w-5 bg-black h-0.5" />
+          <div className="border border-black w-7 my-auto"></div>
         </div>
+
+        <Link
+          to="/"
+          className="absolute left-1/2 transform -translate-x-1/2 flex items-center p-6  text-black"
+        >
+          <img src="/images/Logo.svg" alt="Logo" className="w-12 h-12 mr-2" />
+          <span className="text-xl ">Перфектус</span>
+        </Link>
       </nav>
-      <Menu
-        active={menuActive}
-        setActive={setMenuActive}
-        header={"Перфектус"}
-        items={items}
-      />
+      <Menu active={menuActive} setActive={setMenuActive} items={items} />
     </header>
   );
 };
