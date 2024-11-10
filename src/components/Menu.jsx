@@ -11,7 +11,7 @@ const Menu = ({ items, active, setActive }) => {
         "top-0",
         "left-0 ",
         "duration-200",
-        "z-20",
+        "z-10",
         {
           "-translate-x-full": !active,
           " @apply -translate-x-0": active,
@@ -54,7 +54,7 @@ const Menu = ({ items, active, setActive }) => {
             <div className="w-full mt-auto">
               <a
                 href="tel:89218737073"
-                className="block w-full font-bold bg-cyan-600 text-center p-2 border-4 border-salte-500"
+                className="block w-full font-bold bg-cyan-600 text-center p-2 border-4 border-salte-500 rounded"
               >
                 ЗАПИСАТЬСЯ
               </a>
