@@ -12,6 +12,10 @@ body {
   }
 }
 
+.mask-gradient-to-r {
+  -webkit-mask-image: linear-gradient(to right, black, transparent);
+}
+
 .burger-btn {
   @apply flex w-7 h-5 ml-5 relative cursor-pointer border-y-black border-y-2;
 }

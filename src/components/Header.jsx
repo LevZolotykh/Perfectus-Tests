@@ -4,7 +4,7 @@ import DesktopHeader from "./DesktopHeader";
 
 const Header = () => {
   return (
-    <header>
+    <header className="relative w-screen max-w-screen-2xl mx-auto">
       <div className="block md:hidden">
         <MobileHeader />
       </div>

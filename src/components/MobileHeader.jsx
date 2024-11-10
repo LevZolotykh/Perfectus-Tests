@@ -14,7 +14,7 @@ const MobileHeader = () => {
   ];
   return (
     <header>
-      <nav className="w-full bg-white h-24 fixed flex items-center">
+      <nav className="shadow-none w-full bg-white h-24 flex items-center justify-between">
         <div className="burger-btn" onClick={() => setMenuActive(!menuActive)}>
           <div className="border border-black w-7 my-auto"></div>
         </div>
@@ -26,6 +26,14 @@ const MobileHeader = () => {
           <img src="/images/Logo.svg" alt="Logo" className="w-12 h-12 mr-2" />
           <span className="text-xl ">Перфектус</span>
         </Link>
+        {/* <div className="pr-6">
+          <a
+            href="tel:89218737073"
+            className=" w-full font-bold bg-cyan-600 text-center border-4 border-salte-500 p-4 rounded"
+          >
+            ЗАПИСАТЬСЯ
+          </a>
+        </div> */}
       </nav>
       <Menu active={menuActive} setActive={setMenuActive} items={items} />
     </header>
