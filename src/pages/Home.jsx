@@ -1,10 +1,11 @@
 import React from "react";
-import TextOnPic from "../components/UI/TextOnPic";
+import DesktopTextOnPic from "../components/UI/TextOnPic";
 
 const Home = () => {
   return (
     <div className=" max-w-screen-2xl mx-auto">
-      <TextOnPic
+      <DesktopTextOnPic
+        imgsrc={"/images/Home1.svg"}
         head={"Надежные стоматологи в Перфектус"}
         par={"Опытная команда. Исключительный подход."}
       />

@@ -16,6 +16,18 @@ body {
   -webkit-mask-image: linear-gradient(to right, black, transparent);
 }
 
+.mask-gradient-to-b {
+  -webkit-mask-image: linear-gradient(black, transparent);
+}
+
+.headerText {
+  font-size: clamp(1rem, 5vw, 3rem);
+}
+
+.paragraphText {
+  font-size: clamp(1rem, 3vw, 3rem);
+}
+
 .burger-btn {
   @apply flex w-7 h-5 ml-5 relative cursor-pointer border-y-black border-y-2;
 }
