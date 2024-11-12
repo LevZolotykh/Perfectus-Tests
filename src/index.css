@@ -21,11 +21,11 @@ body {
 }
 
 .headerText {
-  font-size: clamp(1rem, 5vw, 3rem);
+  font-size: clamp(1rem, 6vw, 3rem);
 }
 
 .paragraphText {
-  font-size: clamp(1rem, 3vw, 3rem);
+  font-size: clamp(0.8rem, 2vw, 2rem);
 }
 
 .burger-btn {
