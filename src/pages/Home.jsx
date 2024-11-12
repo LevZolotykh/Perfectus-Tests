@@ -1,12 +1,13 @@
 import React from "react";
-import DesktopTextOnPic from "../components/UI/TextOnPic";
+import TextOnPic from "../components/UI/TextOnPic";
 import FeedbackCard from "../components/UI/FeedbackCard";
 import TripleCard from "../components/UI/TripleCard";
+import Features from "../components/UI/Features";
 
 const Home = () => {
   return (
     <div className=" max-w-screen-2xl mx-auto">
-      <DesktopTextOnPic
+      <TextOnPic
         imgsrc={"/images/Home1.svg"}
         head={"Надежные стоматологи в Перфектус"}
         par={"Опытная команда. Исключительный подход."}
@@ -18,6 +19,7 @@ const Home = () => {
           "At Advance Dental C anley Heights, we’re committed to helping you achieve a lifetime of excellent oral health. From preventative care and regular check-ups, to restorative treatments and cosmetic dentistry, our experienced team is here for you."
         }
       />
+      <Features />
     </div>
   );
 };

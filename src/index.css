@@ -28,6 +28,10 @@ body {
   font-size: clamp(0.8rem, 2vw, 2rem);
 }
 
+.cardHeaderText {
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+}
+
 .burger-btn {
   @apply flex w-7 h-5 ml-5 relative cursor-pointer border-y-black border-y-2;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const DesktopTextOnPic = ({ head, par, imgsrc }) => {
+const TextOnPic = ({ head, par, imgsrc }) => {
   return (
     <div className="relative mx-auto">
       <img src={imgsrc} alt="Home1" className=" w-full" />
@@ -34,4 +34,4 @@ const DesktopTextOnPic = ({ head, par, imgsrc }) => {
   );
 };
 
-export default DesktopTextOnPic;
+export default TextOnPic;
