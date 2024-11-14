@@ -6,12 +6,6 @@ body {
   font-family: "Karla", sans-serif;
 }
 
-@layer base {
-  p {
-    @apply m-5;
-  }
-}
-
 .mask-gradient-to-r {
   -webkit-mask-image: linear-gradient(to right, black, transparent);
 }

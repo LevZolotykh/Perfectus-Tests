@@ -4,6 +4,7 @@ import FeedbackCard from "../components/UI/FeedbackCard";
 import TripleCard from "../components/UI/TripleCard";
 import Features from "../components/UI/Features";
 import DoctorCard from "../components/UI/DoctorCard";
+import VisitUs from "../components/UI/VisitUs";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       />
       <Features />
       <DoctorCard />
+      <VisitUs />
     </div>
   );
 };

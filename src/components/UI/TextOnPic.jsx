@@ -11,7 +11,7 @@ const TextOnPic = ({ head, par, imgsrc }) => {
       />
       <div className="absolute top-1/4 left-1/4 flex flex-col max-w-3xl">
         <h1 className="headerText text-white">{head}</h1>
-        <p className=" paragraphText mb-10 mx-0 text-white">{par}</p>
+        <p className=" paragraphText mb-10 mx-0 my-5 text-white">{par}</p>
         <div className="pr-6 hidden md:block">
           <a
             href="tel:89218737073"
