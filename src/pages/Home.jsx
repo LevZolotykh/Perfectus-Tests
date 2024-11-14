@@ -5,8 +5,16 @@ import TripleCard from "../components/UI/TripleCard";
 import Features from "../components/UI/Features";
 import DoctorCard from "../components/UI/DoctorCard";
 import VisitUs from "../components/UI/VisitUs";
+import Carousel from "../components/UI/Carousel";
 
 const Home = () => {
+  const images = [
+    "/images/Carousel1.svg",
+    "/images/Carousel2.svg",
+    "/images/Carousel3.svg",
+    "/images/Carousel4.svg",
+    "/images/Carousel5.svg",
+  ];
   return (
     <div className=" max-w-screen-2xl mx-auto">
       <TextOnPic
@@ -24,6 +32,7 @@ const Home = () => {
       <Features />
       <DoctorCard />
       <VisitUs />
+      <Carousel images={images} variant="variant1" />
     </div>
   );
 };
