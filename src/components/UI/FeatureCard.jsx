@@ -12,14 +12,19 @@ const FeatureCard = ({ head, par, imgsrc }) => {
     //       </div>
     //     </div>
     //   );
+
+    // <div className="flex items-start p-4 bg-white shadow-lg rounded-lg h-full">
+    //   <div className="w-full">
+    //     <img src={imgsrc} alt={head} className="h-full w-full " />
+    //   </div>
+    //   <div className=" flex flex-col justify-between">
+    //     <h3 className="text-lg font-semibold mb-2">{head}</h3>
+    //     <p className=" m-0 text-sm text-gray-600 break-words">{par}</p>
+    //   </div>
+    // </div>
+
     <div className="flex items-start p-4 bg-white shadow-lg rounded-lg h-full">
-      <div className="w-full">
-        <img
-          src={imgsrc}
-          alt={head}
-          className="h-full w-full object-contain mr-4"
-        />
-      </div>
+      <img src={imgsrc} alt={head} className=" w-full " />
       <div className=" flex flex-col justify-between">
         <h3 className="text-lg font-semibold mb-2">{head}</h3>
         <p className=" m-0 text-sm text-gray-600 break-words">{par}</p>

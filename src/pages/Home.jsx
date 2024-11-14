@@ -3,6 +3,7 @@ import TextOnPic from "../components/UI/TextOnPic";
 import FeedbackCard from "../components/UI/FeedbackCard";
 import TripleCard from "../components/UI/TripleCard";
 import Features from "../components/UI/Features";
+import DoctorCard from "../components/UI/DoctorCard";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         }
       />
       <Features />
+      <DoctorCard />
     </div>
   );
 };

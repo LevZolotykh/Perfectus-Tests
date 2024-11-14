@@ -9,7 +9,7 @@ const Features = () => {
         <br />
         their preferred dentist.
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-4xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-5xl">
         <FeatureCard
           head="Dentistry for the whole family"
           par="Kids, teens, adults — we will provide excellent personalised treatment and quality dental care for all ages."
