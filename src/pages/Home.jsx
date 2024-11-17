@@ -32,7 +32,7 @@ const Home = () => {
       <Features />
       <DoctorCard />
       <VisitUs />
-      <Carousel images={images} variant="variant1" />
+      <Carousel />
     </div>
   );
 };
