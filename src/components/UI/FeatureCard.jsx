@@ -2,32 +2,17 @@ import React from "react";
 
 const FeatureCard = ({ head, par, imgsrc }) => {
   return (
-    //     <div className="flex items-start p-4 bg-white shadow-lg rounded-lg h-full">
-    //       <div className="flex-shrink-0 h-full aspect-square">
-    //         <img src={imgsrc} alt="" className="h-full w-full object-contain" />
-    //       </div>
-    //       <div className="ml-4">
-    //         <h3 className="text-lg font-semibold mb-2">{head}</h3>
-    //         <p className="text-sm text-gray-600 mx-0">{par}</p>
-    //       </div>
-    //     </div>
-    //   );
-
-    // <div className="flex items-start p-4 bg-white shadow-lg rounded-lg h-full">
-    //   <div className="w-full">
-    //     <img src={imgsrc} alt={head} className="h-full w-full " />
-    //   </div>
-    //   <div className=" flex flex-col justify-between">
-    //     <h3 className="text-lg font-semibold mb-2">{head}</h3>
-    //     <p className=" m-0 text-sm text-gray-600 break-words">{par}</p>
-    //   </div>
-    // </div>
-
-    <div className="flex items-start p-4 bg-white shadow-lg rounded-lg h-full">
-      <img src={imgsrc} alt={head} className=" w-full " />
-      <div className=" flex flex-col justify-between">
+    <div className="flex items-start p-4 rounded-lg shadow-lg bg-white">
+      <div className="w-1/3 h-full flex items-left justify-left">
+        <img
+          src={imgsrc}
+          alt=""
+          className="w-full h-full object-contain max-h-32"
+        />
+      </div>
+      <div className="w-2/3 pl-4 flex flex-col items-start text-left">
         <h3 className="text-lg font-semibold mb-2">{head}</h3>
-        <p className=" m-0 text-sm text-gray-600 break-words">{par}</p>
+        <p className="text-sm text-gray-600">{par}</p>
       </div>
     </div>
   );
