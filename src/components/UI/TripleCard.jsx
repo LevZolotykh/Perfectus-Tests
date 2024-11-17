@@ -1,5 +1,7 @@
 import React from "react";
 import DescriptionCard from "./DescriptionCard";
+import { Link } from "react-router-dom";
+
 const TripleCard = ({ head, par }) => {
   return (
     <div className="flex flex-col items-center px-4 md:px-8 lg:px-16 py-12 bg-gray-50">
@@ -31,12 +33,12 @@ const TripleCard = ({ head, par }) => {
         />
       </div>
 
-      <a
-        href="tel:89218737073"
+      <Link
+        to="services"
         className="mt-8 px-6 py-2 bg-cyan-600 text-white font-medium rounded border-4 border-salte-500"
       >
         ВСЕ УСЛУГИ
-      </a>
+      </Link>
     </div>
   );
 };
