@@ -26,7 +26,7 @@ const MobileHeader = () => {
           <img src="/images/Logo.svg" alt="Logo" className="w-12 h-12 mr-2" />
           <span className="text-xl ">Перфектус</span>
         </Link>
-        <div className="pr-6">
+        <div className="pr-6 hidden  sm516:block">
           <a
             href="tel:89218737073"
             className=" w-full font-bold bg-cyan-600 text-center border-4 border-salte-500 p-4 rounded"
