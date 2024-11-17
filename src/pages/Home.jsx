@@ -33,7 +33,9 @@ const Home = () => {
       <Features />
       <DoctorCard />
       <VisitUs />
-      <Carousel />
+      <div className="w-full mx-auto">
+        <Carousel slides={images} />
+      </div>
       <Footer />
     </div>
   );
