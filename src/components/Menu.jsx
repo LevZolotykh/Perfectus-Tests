@@ -11,7 +11,7 @@ const Menu = ({ items, active, setActive }) => {
         "top-0",
         "left-0 ",
         "duration-200",
-        "z-10",
+        "z-20",
         {
           "-translate-x-full": !active,
           " @apply -translate-x-0": active,
