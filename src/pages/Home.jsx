@@ -6,6 +6,7 @@ import Features from "../components/UI/Features";
 import DoctorCard from "../components/UI/DoctorCard";
 import VisitUs from "../components/UI/VisitUs";
 import Carousel from "../components/UI/Carousel";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const images = [
@@ -33,6 +34,7 @@ const Home = () => {
       <DoctorCard />
       <VisitUs />
       <Carousel />
+      <Footer />
     </div>
   );
 };
