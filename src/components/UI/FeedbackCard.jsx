@@ -34,6 +34,7 @@ const FeedbackCard = () => {
             <iframe
               className="w-full lg:aspect-square lg:h-auto h-full border border-gray-300 rounded-lg"
               src="https://yandex.ru/maps-reviews-widget/169644780197?comments"
+              title="FeedBacks"
             ></iframe>
             <a
               href="https://yandex.ru/maps/org/perfektus/169644780197/"
