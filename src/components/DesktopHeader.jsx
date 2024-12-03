@@ -31,6 +31,7 @@ const DesktopHeader = () => {
           <a
             href="tel:89218737073"
             className=" w-full font-bold bg-cyan-600 text-center border-4 border-salte-500 p-4 rounded"
+            aria-label="Записаться"
           >
             ЗАПИСАТЬСЯ
           </a>

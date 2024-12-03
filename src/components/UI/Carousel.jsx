@@ -40,7 +40,7 @@ const Carousel = ({ slides }) => {
           >
             <img
               src={img}
-              alt=""
+              alt={`img${index + 1}`}
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />
           </div>
@@ -49,12 +49,14 @@ const Carousel = ({ slides }) => {
 
       <div className="absolute inset-0 flex items-center justify-between px-4">
         <button
+          aria-label="prev"
           onClick={prev}
           className="p-2 bg-white rounded-full shadow-lg z-10 hover:bg-gray-200"
         >
           <FaChevronLeft size={30} />
         </button>
         <button
+          aria-label="next"
           onClick={next}
           className="p-2 bg-white rounded-full shadow-lg z-10 hover:bg-gray-200"
         >
